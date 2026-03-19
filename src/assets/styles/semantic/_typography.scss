@@ -1,0 +1,98 @@
+@use "sass:map";
+@use "../core";
+
+$text-styles: (
+        "display-1": (
+                "font-size": map.get(core.$font-sizes, "6xl"),
+                "font-weight": map.get(core.$font-weights, "bold"),
+                "line-height": map.get(core.$line-heights, "none"),
+                "letter-spacing": map.get(core.$letter-spacings, "normal"),
+        ),
+        "display-2": (
+                "font-size": map.get(core.$font-sizes, "5xl"),
+                "font-weight": map.get(core.$font-weights, "bold"),
+                "line-height": map.get(core.$line-heights, "tight"),
+                "letter-spacing": map.get(core.$letter-spacings, "tight"),
+        ),
+        "heading-1": (
+                "font-size": map.get(core.$font-sizes, "4xl"),
+                "font-weight": map.get(core.$font-weights, "bold"),
+                "line-height": map.get(core.$line-heights, "tight"),
+        ),
+        "heading-2": (
+                "font-size": map.get(core.$font-sizes, "3xl"),
+                "font-weight": map.get(core.$font-weights, "bold"),
+                "line-height": map.get(core.$line-heights, "snug"),
+        ),
+        "heading-3": (
+                "font-size": map.get(core.$font-sizes, "2xl"),
+                "font-weight": map.get(core.$font-weights, "semibold"),
+                "line-height": map.get(core.$line-heights, "snug"),
+        ),
+        "heading-4": (
+                "font-size": map.get(core.$font-sizes, "xl"),
+                "font-weight": map.get(core.$font-weights, "semibold"),
+                "line-height": map.get(core.$line-heights, "normal"),
+        ),
+        "heading-5": (
+                "font-size": map.get(core.$font-sizes, "lg"),
+                "font-weight": map.get(core.$font-weights, "semibold"),
+                "line-height": map.get(core.$line-heights, "normal"),
+        ),
+        "heading-6": (
+                "font-size": map.get(core.$font-sizes, "base"),
+                "font-weight": map.get(core.$font-weights, "semibold"),
+                "line-height": map.get(core.$line-heights, "normal"),
+        ),
+        "body-large": (
+                "font-size": map.get(core.$font-sizes, "lg"),
+                "font-weight": map.get(core.$font-weights, "normal"),
+                "line-height": map.get(core.$line-heights, "relaxed"),
+        ),
+        "body": (
+                "font-size": map.get(core.$font-sizes, "base"),
+                "font-weight": map.get(core.$font-weights, "normal"),
+                "line-height": map.get(core.$line-heights, "relaxed"),
+        ),
+        "body-small": (
+                "font-size": map.get(core.$font-sizes, "sm"),
+                "font-weight": map.get(core.$font-weights, "normal"),
+                "line-height": map.get(core.$line-heights, "normal"),
+        ),
+        "caption": (
+                "font-size": map.get(core.$font-sizes, "sm"),
+                "font-weight": map.get(core.$font-weights, "normal"),
+                "line-height": map.get(core.$line-heights, "relaxed"),
+        ),
+        "caption-small": (
+                "font-size": map.get(core.$font-sizes, "xs"),
+                "font-weight": map.get(core.$font-weights, "normal"),
+                "line-height": map.get(core.$line-heights, "relaxed"),
+        ),
+        "button": (
+                "font-size": map.get(core.$font-sizes, "sm"),
+                "font-weight": map.get(core.$font-weights, "medium"),
+                "line-height": map.get(core.$line-heights, "normal"),
+                "letter-spacing": map.get(core.$letter-spacings, "wide"),
+        ),
+        "input": (
+                "font-size": map.get(core.$font-sizes, "sm"),
+                "font-weight": map.get(core.$font-weights, "medium"),
+                "line-height": map.get(core.$line-heights, "normal"),
+                "letter-spacing": map.get(core.$letter-spacings, "wide"),
+        ),
+        "label": (
+                "font-size": map.get(core.$font-sizes, "sm"),
+                "font-weight": map.get(core.$font-weights, "semibold"),
+                "line-height": map.get(core.$line-heights, "normal"),
+                "letter-spacing": map.get(core.$letter-spacings, "wide"),
+        ),
+        "link": (
+                "font-size": inherit,
+                "font-weight": map.get(core.$font-weights, "medium"),
+        ),
+) !default;
+
+$base-font-size: map.get(core.$font-sizes, "base") !default;
+$base-line-height: map.get(core.$line-heights, "relaxed") !default;
+$body-font-family: map.get(core.$font-families, "primary") !default;

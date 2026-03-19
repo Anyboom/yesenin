@@ -1,0 +1,37 @@
+@use "../core";
+
+@mixin view-port-xxl {
+  @media (max-width: core.$view-port-xxl) {
+    @content;
+  }
+}
+
+@mixin view-port-xl {
+  @media (max-width: core.$view-port-xl) {
+    @content;
+  }
+}
+
+@mixin view-port-lg {
+  @media (max-width: core.$view-port-lg) {
+    @content;
+  }
+}
+
+@mixin view-port-md {
+  @media (max-width: core.$view-port-md) {
+    @content;
+  }
+}
+
+@mixin view-port-sm {
+  @media (max-width: core.$view-port-sm) {
+    @content;
+  }
+}
+
+@mixin view-port-xs {
+  @media (max-width: core.$view-port-xs) {
+    @content;
+  }
+}

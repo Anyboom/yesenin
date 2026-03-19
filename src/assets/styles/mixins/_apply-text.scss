@@ -1,0 +1,18 @@
+@use "sass:map";
+@use "../semantic";
+
+@mixin apply-text($style-name) {
+  $style: map.get(semantic.$text-styles, $style-name);
+
+  @if $style {
+    @each $property, $value in $style {
+      #{$property}: $value;
+    }
+
+    @if not map.has-key($style, "font-family") {
+      font-family: semantic.$body-font-family;
+    }
+  } @else {
+    @error 'Текстовый стиль "#{$style-name}" не найден';
+  }
+}
