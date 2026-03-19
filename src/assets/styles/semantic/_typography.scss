@@ -44,52 +44,15 @@ $text-styles: (
                 "font-weight": map.get(core.$font-weights, "semibold"),
                 "line-height": map.get(core.$line-heights, "normal"),
         ),
-        "body-large": (
-                "font-size": map.get(core.$font-sizes, "lg"),
-                "font-weight": map.get(core.$font-weights, "normal"),
-                "line-height": map.get(core.$line-heights, "relaxed"),
-        ),
         "body": (
                 "font-size": map.get(core.$font-sizes, "base"),
                 "font-weight": map.get(core.$font-weights, "normal"),
                 "line-height": map.get(core.$line-heights, "relaxed"),
         ),
-        "body-small": (
-                "font-size": map.get(core.$font-sizes, "sm"),
-                "font-weight": map.get(core.$font-weights, "normal"),
-                "line-height": map.get(core.$line-heights, "normal"),
-        ),
         "caption": (
                 "font-size": map.get(core.$font-sizes, "sm"),
                 "font-weight": map.get(core.$font-weights, "normal"),
                 "line-height": map.get(core.$line-heights, "relaxed"),
-        ),
-        "caption-small": (
-                "font-size": map.get(core.$font-sizes, "xs"),
-                "font-weight": map.get(core.$font-weights, "normal"),
-                "line-height": map.get(core.$line-heights, "relaxed"),
-        ),
-        "button": (
-                "font-size": map.get(core.$font-sizes, "sm"),
-                "font-weight": map.get(core.$font-weights, "medium"),
-                "line-height": map.get(core.$line-heights, "normal"),
-                "letter-spacing": map.get(core.$letter-spacings, "wide"),
-        ),
-        "input": (
-                "font-size": map.get(core.$font-sizes, "sm"),
-                "font-weight": map.get(core.$font-weights, "medium"),
-                "line-height": map.get(core.$line-heights, "normal"),
-                "letter-spacing": map.get(core.$letter-spacings, "wide"),
-        ),
-        "label": (
-                "font-size": map.get(core.$font-sizes, "sm"),
-                "font-weight": map.get(core.$font-weights, "semibold"),
-                "line-height": map.get(core.$line-heights, "normal"),
-                "letter-spacing": map.get(core.$letter-spacings, "wide"),
-        ),
-        "link": (
-                "font-size": inherit,
-                "font-weight": map.get(core.$font-weights, "medium"),
         ),
 ) !default;
 
