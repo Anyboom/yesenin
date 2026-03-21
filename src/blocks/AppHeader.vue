@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import AppMenu from "@/blocks/AppMenu.vue";
+</script>
 
 <template>
   <header class="app-header">
@@ -12,6 +14,7 @@
         </div>
       </div>
     </div>
+    <AppMenu />
   </header>
 </template>
 
@@ -21,10 +24,13 @@
   .app-header {
     height: 100dvh;
     background: core.$color-alabaster;
+    display: flex;
+    flex-direction: column;
 
     &__wrapper {
-      height: 100%;
+      flex: 1;
       display: flex;
+      height: 100%;
       align-items: center;
       justify-content: center;
     }

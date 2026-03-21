@@ -45,8 +45,8 @@ $text-styles: (
                 "line-height": map.get(core.$line-heights, "normal"),
         ),
         "body": (
-                "font-size": map.get(core.$font-sizes, "base"),
-                "font-weight": map.get(core.$font-weights, "normal"),
+                "font-size": map.get(core.$font-sizes, "xl"),
+                "font-weight": map.get(core.$font-weights, "light"),
                 "line-height": map.get(core.$line-heights, "relaxed"),
         ),
         "caption": (
