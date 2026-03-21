@@ -24,7 +24,7 @@
     &__body {
       text-align: center;
       font-family: "DIN", sans-serif !important;
-      @include mixins.apply-text("heading-1");
+      @include mixins.apply-text("display-2");
       color: core.$color-white;
     }
   }
