@@ -1,28 +1,23 @@
 <script setup lang="ts">
   import { onMounted, onUnmounted, ref, useTemplateRef } from "vue";
 
-  // Константы
   const MIN_SCALE = 1;
-  const MAX_SCALE = 5;
-  const CONTAINER_WIDTH = 519;
+  const MAX_SCALE = 100;
+  const CONTAINER_WIDTH = 1224;
   const CONTAINER_HEIGHT = 772;
 
-  // Refs
   const wrapperRef = useTemplateRef<HTMLDivElement>("mapWrapper");
   const imageRef = useTemplateRef<HTMLImageElement>("mapImage");
 
-  // Состояние
   const scale = ref(1);
   const position = ref({ x: 0, y: 0 });
   const isDragging = ref(false);
   const dragStart = ref({ x: 0, y: 0, posX: 0, posY: 0 });
   const imageDimensions = ref({ width: 0, height: 0 });
 
-  // Вычисляемые значения
   const imageScaledWidth = () => imageDimensions.value.width * scale.value;
   const imageScaledHeight = () => imageDimensions.value.height * scale.value;
 
-  // Методы
   function updateTransform() {
     if (!imageRef.value) return;
 
@@ -35,7 +30,6 @@
     const scaledWidth = imageScaledWidth();
     const scaledHeight = imageScaledHeight();
 
-    // Ограничение по X
     if (scaledWidth > CONTAINER_WIDTH) {
       const minX = CONTAINER_WIDTH - scaledWidth;
       const maxX = 0;
@@ -44,7 +38,6 @@
       position.value.x = (CONTAINER_WIDTH - scaledWidth) / 2;
     }
 
-    // Ограничение по Y
     if (scaledHeight > CONTAINER_HEIGHT) {
       const minY = CONTAINER_HEIGHT - scaledHeight;
       const maxY = 0;
@@ -62,7 +55,6 @@
       height: imageRef.value.naturalHeight,
     };
 
-    // Центрируем если изображение меньше контейнера
     if (imageDimensions.value.width < CONTAINER_WIDTH) {
       position.value.x = (CONTAINER_WIDTH - imageDimensions.value.width) / 2;
     }
@@ -151,7 +143,6 @@
   onUnmounted(() => {
     const wrapper = wrapperRef.value;
 
-    // Убираем обработчики
     if (wrapper) {
       wrapper.removeEventListener("mousedown", handleMouseDown);
       wrapper.removeEventListener("wheel", handleWheel);
@@ -163,26 +154,25 @@
 </script>
 
 <template>
-  <section class="map-viewer">
-    <div class="container">
-      <div class="map-viewer__wrapper">
-        <h2 class="map-viewer__title">Карта</h2>
-
-        <div class="map-viewer__inner">
-          <div
-            ref="mapWrapper"
-            class="map-viewer__image-wrapper"
-            :class="{ 'is-dragging': isDragging }"
-          >
-            <img
-              ref="mapImage"
-              src="/images/map-town.png"
-              alt="Карта"
-              class="map-viewer__image"
-              @load="handleImageLoad"
-              draggable="false"
-            />
-          </div>
+  <section
+    id="map"
+    class="map-viewer"
+  >
+    <div class="map-viewer__wrapper">
+      <div class="map-viewer__inner">
+        <div
+          ref="mapWrapper"
+          class="map-viewer__image-wrapper"
+          :class="{ 'is-dragging': isDragging }"
+        >
+          <img
+            ref="mapImage"
+            src="/images/map-town.jpg"
+            alt="Карта"
+            class="map-viewer__image"
+            @load="handleImageLoad"
+            draggable="false"
+          />
         </div>
       </div>
     </div>
@@ -194,24 +184,16 @@
   @use "@/assets/styles/mixins";
 
   .map-viewer {
-    padding: core.$spacing-8 0;
     background: core.$color-alabaster;
-
-    &__title {
-      text-align: center;
-      @include mixins.apply-text("heading-2");
-      margin-bottom: core.$spacing-6;
-    }
+    border: 4px solid core.$color-red-oxide;
+    border-radius: core.$spacing-2;
 
     &__inner {
-      width: 519px;
+      width: 1224px;
       height: 770px;
       background: core.$color-red-oxide;
-      border: 4px solid core.$color-red-oxide;
-      border-radius: core.$spacing-2;
       overflow: hidden;
       position: relative;
-      margin: 0 auto;
     }
 
     &__image-wrapper {

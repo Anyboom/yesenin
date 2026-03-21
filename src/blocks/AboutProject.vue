@@ -53,6 +53,7 @@
     }
 
     &__body {
+      text-align: justify;
       margin: 0 auto;
       max-width: 700px;
       display: flex;
