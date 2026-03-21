@@ -22,6 +22,7 @@
     }
 
     &__body {
+      font-style: italic;
       text-align: center;
       font-family: "DIN", sans-serif !important;
       @include mixins.apply-text("display-2");
