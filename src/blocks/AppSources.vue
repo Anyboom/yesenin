@@ -103,6 +103,9 @@
     }
 
     &__body {
+      text-align: justify;
+      margin: 0 auto;
+      max-width: 700px;
       display: flex;
       flex-direction: column;
       gap: core.$spacing-2;
