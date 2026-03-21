@@ -4,6 +4,7 @@
   import AboutProject from "@/blocks/AboutProject.vue";
   import MapViewer from "@/blocks/MapViewer.vue";
   import AppSources from "@/blocks/AppSources.vue";
+  import ButtonToTop from "@/components/ButtonToTop.vue";
 </script>
 
 <template>
@@ -12,4 +13,5 @@
   <AboutProject />
   <MapViewer />
   <AppSources />
+  <ButtonToTop />
 </template>
