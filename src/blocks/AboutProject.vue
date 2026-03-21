@@ -49,7 +49,6 @@
       flex-direction: column;
       gap: core.$spacing-4;
       @include mixins.apply-text("body");
-
       text-indent: core.$spacing-6;
     }
   }
