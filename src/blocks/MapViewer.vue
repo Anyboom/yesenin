@@ -263,9 +263,6 @@
               :key="location.id"
               class="map-viewer__location-marker"
               :style="getIconPosition(location)"
-              :class="{
-                'map-viewer__location-marker--active': activeLocation?.id === location.id,
-              }"
               @click.stop="handleLocationClick(location, $event)"
             >
               <div class="map-viewer__marker-icon">
@@ -359,12 +356,6 @@
 
       &:hover {
         transform: translate(-50%, -50%) scale(1.1);
-      }
-
-      &--active {
-        .map-viewer__marker-icon svg {
-          filter: drop-shadow(0 0 8px rgba(255, 68, 68, 0.8));
-        }
       }
     }
 
