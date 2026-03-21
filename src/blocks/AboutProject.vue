@@ -1,11 +1,34 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import AppButton from "@/components/AppButton.vue";
+  import { Icon } from "@iconify/vue";
+  import { ref } from "vue";
+
+  const isShow = ref(false);
+</script>
 
 <template>
   <section class="about-project">
     <div class="container">
       <div class="about-project__wrapper">
-        <h2 class="about-project__title">О проекте</h2>
-        <div class="about-project__body">
+        <h2 class="app-sources__title">
+          О проекте
+          <AppButton
+            class="app-sources__button"
+            v-if="!isShow"
+            @click="isShow = true"
+          >
+            <Icon
+              class="app-sources__icon"
+              icon="fa7-solid:chevron-down"
+              width="24"
+              height="24"
+            ></Icon>
+          </AppButton>
+        </h2>
+        <div
+          class="about-project__body"
+          v-if="isShow"
+        >
           <p>
             Проект «Как И.Д. Сытин открыл С.А. Есенина» представляет собой научно-популярный сноуфолл (интерактивный
             лонгрид), посвященный исследованию творческого пути поэта С.А. Есенина, важной частью которого стала его
@@ -47,9 +70,12 @@
     background: core.$color-alabaster;
 
     &__title {
-      text-align: center;
       @include mixins.apply-text("heading-2");
-      margin-bottom: core.$spacing-6;
+      display: flex;
+      gap: core.$spacing-1;
+      width: fit-content;
+      align-items: center;
+      margin: 0 auto core.$spacing-6;
     }
 
     &__body {

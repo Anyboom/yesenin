@@ -436,6 +436,18 @@
         </div>
         <MapViewer />
         <div class="app-content__body">
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.18.jpg"
+              back-image="images/blocks/fallback.png"
+            />
+            <p class="app-content__image-caption">Одно из подразделений типографии И.Д. Сытина.</p>
+          </div>
           <div class="app-content__body-text">
             <p>
               Интересы народного просвещения для Сытина всегда были выше интересов предпринимательских. Он был человеком
@@ -463,8 +475,32 @@
               посмертным.
             </p>
           </div>
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.19.png"
+              back-image="images/blocks/fallback.png"
+            />
+            <p class="app-content__image-caption">Типография И.Д. Сытина. Наборная. Скоропечатные машины. 1907 г.</p>
+          </div>
         </div>
         <div class="app-content__body">
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.19_1.png"
+              back-image="images/blocks/fallback.png"
+            />
+            <p class="app-content__image-caption">С.А. Есенин, 1913 г.</p>
+          </div>
           <div class="app-content__body-text">
             <p>
               Иван Спиридонович Рахилло, русский советский писатель, цитируя старого наборщика Андреева, с которым в
@@ -491,8 +527,35 @@
               феноменальной памятью, поэт, по словам знавших его людей, впитывал за день больше, чем другой за год.
             </p>
           </div>
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.20.jpg"
+              back-image="images/blocks/fallback.png"
+            />
+            <p class="app-content__image-caption">
+              С.А. Есенин среди работников типографии Товарищества И.Д. Сытина, Москва, 1914 г.
+            </p>
+          </div>
         </div>
         <div class="app-content__body">
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.21.png"
+            />
+            <p class="app-content__image-caption">
+              С.А. Есенин на занятиях кружка самообразования работников типографии Товарищества И.Д. Сытина, 1914 г.
+            </p>
+          </div>
           <div class="app-content__body-text">
             <p>
               Также нам известно, что в бытность свою корректором типографии Есенин участвовал в рабочих собраниях,
@@ -518,6 +581,17 @@
           </div>
         </div>
         <div class="app-content__body">
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.22.jpeg"
+            />
+            <p class="app-content__image-caption">Московский городской народный университет имени А. Л. Шанявского.</p>
+          </div>
           <div class="app-content__body-text">
             <p>
               Также под влиянием и с помощью сытинцев он поступает в народный университет им. А.Л. Шанявского,
@@ -546,8 +620,36 @@
               благовест», в № 12 – «Сиротка. Русская сказка».
             </p>
           </div>
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.23.24.jpg"
+              back-image="images/blocks/fallback.png"
+            />
+            <p class="app-content__image-caption">
+              С.А. Есенин среди работников типографии Товарищества И.Д. Сытина, Москва, 1914 г.
+            </p>
+          </div>
         </div>
         <div class="app-content__body">
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.25.jpg"
+              back-image="images/blocks/fallback.png"
+            />
+            <p class="app-content__image-caption">
+              Фрагмент фотографии С.А. Есенина с М.П. Мурашевым, Петроград, 1916 г.
+            </p>
+          </div>
           <div class="app-content__body-text">
             <p>
               Типографский период в биографии Есенина оказался не просто прологом к большой литературе. Время,
@@ -572,6 +674,20 @@
               любили, и чем труднее было издавать, тем больше азартного желания рождалось в них».
             </p>
           </div>
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.26.jpeg"
+              back-image="images/blocks/fallback.png"
+            />
+            <p class="app-content__image-caption">
+              Слева направо: А. Мариенгоф, С. Есенин, А. Кусиков, А. Шершеневич. Москва, 1920 г.
+            </p>
+          </div>
         </div>
         <div class="app-content__body">
           <div class="app-content__body-text">
@@ -593,8 +709,32 @@
               выпускать в Москве собственный журнал или литературный альманах.
             </p>
           </div>
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.27.jpeg"
+              back-image="images/blocks/fallback.png"
+            />
+            <p class="app-content__image-caption">Сергей Есенин. Москва, 1914 г.</p>
+          </div>
         </div>
         <div class="app-content__body">
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="400px"
+              thumbnail-height="400px"
+              modal-width="400px"
+              modal-height="400px"
+              front-image="images/blocks/2.28.png"
+              back-image="images/blocks/fallback.png"
+            />
+            <p class="app-content__image-caption">Здание редакции газеты «Заря Востока»</p>
+          </div>
           <div class="app-content__body-text">
             <p>
               Позже Николай Вержбицкий вспомнит, как когда-то наблюдал за реакцией Есенина, посетившего в Тифлисе
