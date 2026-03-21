@@ -24,10 +24,9 @@
               class="app-content__image"
               thumbnail-width="368px"
               thumbnail-height="258px"
-              modal-width="800px"
-              modal-height="600px"
+              modal-width="564px"
+              modal-height="395px"
               front-image="images/blocks/2.jpeg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               Дом Никиты Осиповича Есенина (деда поэта). Здесь родился С.А. Есенин. Рисунок сделан по рассказу отца
@@ -66,12 +65,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="637px"
+              thumbnail-height="649px"
+              modal-width="637px"
+              modal-height="649px"
               front-image="images/blocks/3.jpeg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">Вид на село Константиново с заливных лугов</p>
           </div>
@@ -80,12 +78,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="483px"
+              thumbnail-height="700px"
+              modal-width="483px"
+              modal-height="700px"
               front-image="images/blocks/2.2.jpeg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">Вид на село Константиново с заливных лугов</p>
           </div>
@@ -114,12 +111,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
+              thumbnail-width="684px"
+              thumbnail-height="722px"
               modal-width="400px"
               modal-height="400px"
               front-image="images/blocks/2.3.png"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               Отец поэта А.Н. Есенин с дедом поэта Федором Андреевичем Титовым. Константиново.
@@ -130,12 +126,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="409px"
+              thumbnail-height="517px"
+              modal-width="507px"
+              modal-height="641px"
               front-image="images/blocks/2.5.jpg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               С.А. Есенин с отцом (слева) и дядей Иваном Никитичем Есениным. Москва, лето, 1912 г.
@@ -174,12 +169,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="461px"
+              thumbnail-height="240px"
+              modal-width="461px"
+              modal-height="240px"
               front-image="images/blocks/2.7.jpeg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">Константиновское земское училище</p>
           </div>
@@ -188,12 +182,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="427px"
+              thumbnail-height="618px"
+              modal-width="427px"
+              modal-height="618px"
               front-image="images/blocks/2.8.png"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">Священник отец Иоанн, Рязань, 1903 г.</p>
           </div>
@@ -228,12 +221,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="563px"
+              thumbnail-height="492px"
+              modal-width="563px"
+              modal-height="492px"
               front-image="images/blocks/2.9.jpg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               Похвальный лист, полученный С. Есениным по окончании Константиновского земского училища в 1909 г.
@@ -244,12 +236,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="333px"
+              thumbnail-height="530px"
+              modal-width="464px"
+              modal-height="739px"
               front-image="images/blocks/2.10.jpg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">Евгений Михайлович Хитров с женой</p>
           </div>
@@ -286,12 +277,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="500px"
+              thumbnail-height="310px"
+              modal-width="678px"
+              modal-height="420px"
               front-image="images/blocks/2.12.jpeg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               Григорий Панфилов и Сергей Есенин. Фрагмент групповой фотографии выпускного класса Спас-Клепиковской
@@ -303,12 +293,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="516px"
+              thumbnail-height="430px"
+              modal-width="785px"
+              modal-height="654px"
               front-image="images/blocks/2.14.jpg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               Автограф стихотворения «Звезды» из тетради, подаренной Е.М. Хитрову
@@ -347,10 +336,10 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="454px"
+              thumbnail-height="573px"
+              modal-width="454px"
+              modal-height="573px"
               front-image="images/blocks/2.15.jpg"
               back-image="images/blocks/fallback.png"
             />
@@ -361,12 +350,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="451px"
+              thumbnail-height="283px"
+              modal-width="574px"
+              modal-height="360px"
               front-image="images/blocks/2.16.jpeg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               Общежитие в Большом Строченовском переулке, принадлежавшее купцу Н.В. Крылову
@@ -424,10 +412,10 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="437px"
+              thumbnail-height="547px"
+              modal-width="437px"
+              modal-height="547px"
               front-image="images/blocks/2.17.png"
               back-image="images/blocks/fallback.png"
             />
@@ -439,12 +427,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="508px"
+              thumbnail-height="381px"
+              modal-width="508px"
+              modal-height="381px"
               front-image="images/blocks/2.18.jpg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">Одно из подразделений типографии И.Д. Сытина.</p>
           </div>
@@ -478,12 +465,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="542px"
+              thumbnail-height="404px"
+              modal-width="819px"
+              modal-height="610px"
               front-image="images/blocks/2.19.png"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">Типография И.Д. Сытина. Наборная. Скоропечатные машины. 1907 г.</p>
           </div>
@@ -492,12 +478,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="383px"
+              thumbnail-height="535px"
+              modal-width="485px"
+              modal-height="678px"
               front-image="images/blocks/2.19_1.png"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">С.А. Есенин, 1913 г.</p>
           </div>
@@ -530,12 +515,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="499px"
+              thumbnail-height="313px"
+              modal-width="499px"
+              modal-height="313px"
               front-image="images/blocks/2.20.jpg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               С.А. Есенин среди работников типографии Товарищества И.Д. Сытина, Москва, 1914 г.
@@ -546,10 +530,10 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="520px"
+              thumbnail-height="295px"
+              modal-width="520px"
+              modal-height="295px"
               front-image="images/blocks/2.21.png"
             />
             <p class="app-content__image-caption">
@@ -584,10 +568,10 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="462px"
+              thumbnail-height="275px"
+              modal-width="665px"
+              modal-height="396px"
               front-image="images/blocks/2.22.jpeg"
             />
             <p class="app-content__image-caption">Московский городской народный университет имени А. Л. Шанявского.</p>
@@ -623,15 +607,14 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="421px"
+              thumbnail-height="537px"
+              modal-width="466px"
+              modal-height="624px"
               front-image="images/blocks/2.23.24.jpg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
-              С.А. Есенин среди работников типографии Товарищества И.Д. Сытина, Москва, 1914 г.
+              Страница со стихотворением "Береза" из журнала "Мирок" за январь 1914 г., Тип. тов-ва И.Д. Сытина.
             </p>
           </div>
         </div>
@@ -639,12 +622,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="395px"
+              thumbnail-height="549px"
+              modal-width="446px"
+              modal-height="620px"
               front-image="images/blocks/2.25.jpg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               Фрагмент фотографии С.А. Есенина с М.П. Мурашевым, Петроград, 1916 г.
@@ -677,12 +659,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="402px"
+              thumbnail-height="587px"
+              modal-width="402px"
+              modal-height="587px"
               front-image="images/blocks/2.26.jpeg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">
               Слева направо: А. Мариенгоф, С. Есенин, А. Кусиков, А. Шершеневич. Москва, 1920 г.
@@ -712,12 +693,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="380px"
+              thumbnail-height="542px"
+              modal-width="380px"
+              modal-height="542px"
               front-image="images/blocks/2.27.jpeg"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">Сергей Есенин. Москва, 1914 г.</p>
           </div>
@@ -726,12 +706,11 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="400px"
-              thumbnail-height="400px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="523px"
+              thumbnail-height="363px"
+              modal-width="523px"
+              modal-height="363px"
               front-image="images/blocks/2.28.png"
-              back-image="images/blocks/fallback.png"
             />
             <p class="app-content__image-caption">Здание редакции газеты «Заря Востока»</p>
           </div>

@@ -160,10 +160,7 @@
             '--modalWidth': modalWidth,
           }"
         >
-          <div
-            class="photo-3d-modal__content"
-            @click.stop
-          >
+          <div class="photo-3d-modal__content">
             <div
               ref="photo3dRef"
               class="photo-3d-modal__container"
@@ -195,7 +192,7 @@
 
     &__thumbnail {
       cursor: pointer;
-      border-radius: 20px;
+      border-radius: 12px;
       overflow: hidden;
       transition: transform 0.3s ease;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
@@ -262,7 +259,7 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      border-radius: 20px;
+      border-radius: 12px;
       box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
 
       &--front {
@@ -271,7 +268,10 @@
 
       &--back {
         transform: rotateY(180deg);
-        background: red;
+        background-image: url("/images/blocks/fallback.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
       }
     }
 
