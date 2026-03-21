@@ -18,7 +18,7 @@
     background: core.$color-red-oxide !important;
 
     &__wrapper {
-      padding: core.$spacing-3 0;
+      padding: core.$spacing-6 0;
     }
 
     &__body {
