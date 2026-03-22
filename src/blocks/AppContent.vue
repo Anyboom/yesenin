@@ -1,6 +1,8 @@
 <script setup lang="ts">
   import Image360 from "@/components/Image360.vue";
   import MapViewer from "@/blocks/MapViewer.vue";
+  import BookViewerFirst from "@/blocks/BookViewerFirst.vue";
+  import BookViewerSecond from "@/blocks/BookViewerSecond.vue";
 </script>
 
 <template>
@@ -625,6 +627,10 @@
             </p>
           </div>
         </div>
+        <div class="app-content__books">
+          <BookViewerFirst />
+          <BookViewerSecond />
+        </div>
         <div class="app-content__body">
           <div class="app-content__image-wrapper">
             <Image360
@@ -789,6 +795,12 @@
           border-bottom: 2px solid core.$color-red-oxide;
         }
       }
+    }
+
+    &__books {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: core.$spacing-2;
     }
 
     &__widthed {
