@@ -94,7 +94,7 @@
     &__body {
       text-align: justify;
       margin: 0 auto;
-      max-width: 700px;
+      max-width: 900px;
       display: flex;
       flex-direction: column;
       gap: core.$spacing-4;

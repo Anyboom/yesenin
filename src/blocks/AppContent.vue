@@ -39,7 +39,7 @@
           <div class="app-content__body-text">
             <p>
               «Я родился в 1895 году 21 сентября в селе Константинове Кузьминской волости, Рязанской губернии и
-              Рязанского уезда», – так поэт начинает свой автобиографический очерк.
+              Рязанского уезда», – так поэт начинает свой автобиографический очерк 1922 г.
             </p>
             <p>
               21 сентября (3 октября по новому стилю) 1895 года был отмечен историческим для России событием. 20-21
@@ -68,8 +68,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="637px"
-              thumbnail-height="649px"
+              thumbnail-width="432px"
+              thumbnail-height="440px"
               modal-width="637px"
               modal-height="649px"
               front-image="images/blocks/3.jpeg"
@@ -81,8 +81,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="483px"
-              thumbnail-height="700px"
+              thumbnail-width="358px"
+              thumbnail-height="519px"
               modal-width="483px"
               modal-height="700px"
               front-image="images/blocks/2.2.jpeg"
@@ -114,10 +114,10 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="684px"
-              thumbnail-height="722px"
-              modal-width="400px"
-              modal-height="400px"
+              thumbnail-width="439px"
+              thumbnail-height="464px"
+              modal-width="572px"
+              modal-height="602px"
               front-image="images/blocks/2.3.png"
             />
             <p class="app-content__image-caption">
@@ -172,10 +172,10 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="461px"
-              thumbnail-height="240px"
-              modal-width="461px"
-              modal-height="240px"
+              thumbnail-width="555px"
+              thumbnail-height="289px"
+              modal-width="751px"
+              modal-height="391px"
               front-image="images/blocks/2.7.jpeg"
             />
             <p class="app-content__image-caption">Константиновское земское училище</p>
@@ -185,8 +185,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="427px"
-              thumbnail-height="618px"
+              thumbnail-width="379px"
+              thumbnail-height="549px"
               modal-width="427px"
               modal-height="618px"
               front-image="images/blocks/2.8.png"
@@ -224,8 +224,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="563px"
-              thumbnail-height="492px"
+              thumbnail-width="430px"
+              thumbnail-height="376px"
               modal-width="563px"
               modal-height="492px"
               front-image="images/blocks/2.9.jpg"
@@ -239,8 +239,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="333px"
-              thumbnail-height="530px"
+              thumbnail-width="283px"
+              thumbnail-height="450px"
               modal-width="464px"
               modal-height="739px"
               front-image="images/blocks/2.10.jpg"
@@ -296,8 +296,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="516px"
-              thumbnail-height="430px"
+              thumbnail-width="434px"
+              thumbnail-height="362px"
               modal-width="785px"
               modal-height="654px"
               front-image="images/blocks/2.14.jpg"
@@ -339,8 +339,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="454px"
-              thumbnail-height="573px"
+              thumbnail-width="354px"
+              thumbnail-height="447px"
               modal-width="454px"
               modal-height="573px"
               front-image="images/blocks/2.15.jpg"
@@ -353,8 +353,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="451px"
-              thumbnail-height="283px"
+              thumbnail-width="557px"
+              thumbnail-height="350px"
               modal-width="574px"
               modal-height="360px"
               front-image="images/blocks/2.16.jpeg"
@@ -415,8 +415,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="437px"
-              thumbnail-height="547px"
+              thumbnail-width="420px"
+              thumbnail-height="527px"
               modal-width="437px"
               modal-height="547px"
               front-image="images/blocks/2.17.png"
@@ -430,8 +430,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="508px"
-              thumbnail-height="381px"
+              thumbnail-width="567px"
+              thumbnail-height="425px"
               modal-width="508px"
               modal-height="381px"
               front-image="images/blocks/2.18.jpg"
@@ -533,10 +533,10 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="520px"
-              thumbnail-height="295px"
-              modal-width="520px"
-              modal-height="295px"
+              thumbnail-width="619px"
+              thumbnail-height="351px"
+              modal-width="852px"
+              modal-height="483px"
               front-image="images/blocks/2.21.png"
             />
             <p class="app-content__image-caption">
@@ -588,10 +588,21 @@
           </div>
         </div>
         <div class="app-content__body">
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="571px"
+              thumbnail-height="340px"
+              modal-width="727px"
+              modal-height="433px"
+              front-image="images/blocks/111.png"
+            />
+            <p class="app-content__image-caption">Типография И.Д. Сытина. Наборная. Скоропечатные машины. 1907 г.</p>
+          </div>
           <div class="app-content__body-text">
             <p>
               В Москве Есенин все больше времени уделяет творчеству. Желание опубликовать свои стихи было огромным. И
-              Есенин обращается к редактору печатающихся у Сытина журналов «Вокруг света» и «Мирок»» В.А. Попову. В
+              Есенин обращается к редактору печатающихся у Сытина журналов «Вокруг света» и «Мирок» В.А. Попову. В
               январе 1914 года в первом номере детского журнала «Мирок» было опубликовано есенинское стихотворение
               «Береза».
             </p>
@@ -620,8 +631,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="421px"
-              thumbnail-height="537px"
+              thumbnail-width="345px"
+              thumbnail-height="440px"
               modal-width="466px"
               modal-height="624px"
               front-image="images/blocks/2.23.24.jpg"
@@ -669,8 +680,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="395px"
-              thumbnail-height="549px"
+              thumbnail-width="359px"
+              thumbnail-height="499px"
               modal-width="446px"
               modal-height="620px"
               front-image="images/blocks/2.25.jpg"
@@ -706,8 +717,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="402px"
-              thumbnail-height="587px"
+              thumbnail-width="351px"
+              thumbnail-height="513px"
               modal-width="402px"
               modal-height="587px"
               front-image="images/blocks/2.26.jpeg"
@@ -787,14 +798,14 @@
         </p>
         <p>
           Заложенные Сытиным принципы – открытость издательского дела для талантливого человека из любой среды,
-          доступность книги широкому читателю и внимание к профессиональному росту сотрудников – оказались удивительно
-          жизнеспособны.
+          доступность книги широкому читателю и внимание к профессиональному росту сотрудников&nbsp;–&nbsp;оказались
+          удивительно жизнеспособны.
         </p>
         <p>
           Сегодня инновации в организации книжного производства – от цифровых платформ до демократизации доступа к
-          печати – во многом продолжают ту же логику: дать слово автору независимо от его происхождения, создать среду,
-          где талант может быть замечен и выращен. И в этом смысле сытинский опыт остается не просто историей, а
-          работающим ориентиром для современного издательского дела.
+          печати&nbsp;–&nbsp;во многом продолжают ту же логику: дать слово автору независимо от его происхождения,
+          создать среду, где талант может быть замечен и выращен. И в этом смысле сытинский опыт остается не просто
+          историей, а работающим ориентиром для современного издательского дела.
         </p>
       </div>
     </div>
@@ -834,6 +845,7 @@
     }
 
     &__body-text {
+      text-wrap: balance;
       text-align: justify;
       text-indent: core.$spacing-6;
 
@@ -858,7 +870,7 @@
     }
 
     &__widthed {
-      max-width: 600px;
+      max-width: 900px;
       margin: 0 auto core.$spacing-8;
       @include mixins.apply-text("body");
       text-align: justify;
@@ -866,7 +878,8 @@
     }
 
     &__resume {
-      max-width: 600px;
+      text-wrap: balance;
+      max-width: 900px;
       margin: core.$spacing-8 auto 0;
       @include mixins.apply-text("body");
       text-align: justify;
