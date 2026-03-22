@@ -25,8 +25,8 @@
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
-              thumbnail-width="368px"
-              thumbnail-height="258px"
+              thumbnail-width="442px"
+              thumbnail-height="310px"
               modal-width="564px"
               modal-height="395px"
               front-image="images/blocks/2.jpeg"

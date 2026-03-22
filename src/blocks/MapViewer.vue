@@ -30,8 +30,8 @@
   const locations = ref<MapLocation[]>([
     {
       id: 1,
-      x: 9000,
-      y: 8000,
+      x: 9050,
+      y: 7970,
     },
   ]);
 
