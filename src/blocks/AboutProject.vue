@@ -10,15 +10,15 @@
   <section class="about-project">
     <div class="container">
       <div class="about-project__wrapper">
-        <h2 class="app-sources__title">
+        <h2 class="about-project__title">
           О проекте
           <AppButton
-            class="app-sources__button"
-            v-if="!isShow"
-            @click="isShow = true"
+            class="about-project__button"
+            @click="isShow = !isShow"
           >
             <Icon
-              class="app-sources__icon"
+              class="about-project__icon"
+              :class="{ ' about-project__icon--active': isShow }"
               icon="fa7-solid:chevron-down"
               width="24"
               height="24"
@@ -66,7 +66,7 @@
   @use "@/assets/styles/mixins";
 
   .about-project {
-    padding: core.$spacing-8 0;
+    padding-bottom: core.$spacing-8;
     background: core.$color-alabaster;
 
     &__title {
@@ -76,6 +76,19 @@
       width: fit-content;
       align-items: center;
       margin: 0 auto core.$spacing-6;
+    }
+
+    &__button {
+      display: flex;
+      place-items: center;
+    }
+
+    &__icon {
+      transition: transform 0.2s ease;
+
+      &--active {
+        transform: rotate(180deg);
+      }
     }
 
     &__body {

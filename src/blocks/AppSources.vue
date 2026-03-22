@@ -14,11 +14,11 @@
           Источники
           <AppButton
             class="app-sources__button"
-            v-if="!isShow"
-            @click="isShow = true"
+            @click="isShow = !isShow"
           >
             <Icon
               class="app-sources__icon"
+              :class="{ 'app-sources__icon--active': isShow }"
               icon="fa7-solid:chevron-down"
               width="24"
               height="24"
@@ -30,6 +30,7 @@
           class="app-sources__body"
           v-if="isShow"
         >
+          <p>Андреев, А.Д. Есенин. Легенда. – Москва: Московский рабочий, 1973. – 344 с.</p>
           <p>В мире Есенина / сост. А.А. Михайлов, С.С. Лесневский. – Москва: Советский писатель, 1986. – 654 с.</p>
           <p>В Россию, в Константиново, к Есенину. Фотоальбом. – Рязань: Пресса, 2006. – 272 с.: ил.</p>
           <p>Динерштейн, Е.А. Деятели книги. И. Д. Сытин. – Москва: Книга, 1983. – 271 с.</p>
@@ -85,7 +86,7 @@
   @use "@/assets/styles/mixins";
 
   .app-sources {
-    padding: core.$spacing-8 0;
+    padding-bottom: core.$spacing-8;
     background: core.$color-alabaster;
 
     &__title {
@@ -95,6 +96,14 @@
       width: fit-content;
       align-items: center;
       margin: 0 auto core.$spacing-6;
+    }
+
+    &__icon {
+      transition: transform 0.2s ease;
+
+      &--active {
+        transform: rotate(180deg);
+      }
     }
 
     &__button {

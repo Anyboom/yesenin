@@ -9,8 +9,8 @@
 
 <template>
   <AppHeader />
-  <AboutProject />
   <AppContent />
+  <AboutProject />
   <AppSources />
   <ButtonToTop />
   <AppFooter />
