@@ -24,7 +24,6 @@
   .app-header {
     height: 100dvh;
     background: core.$color-alabaster;
-    padding-bottom: core.$spacing-8;
     display: flex;
     flex-direction: column;
 

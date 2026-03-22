@@ -598,19 +598,6 @@
           </div>
         </div>
         <div class="app-content__body">
-          <div class="app-content__image-wrapper">
-            <Image360
-              class="app-content__image"
-              thumbnail-width="421px"
-              thumbnail-height="537px"
-              modal-width="466px"
-              modal-height="624px"
-              front-image="images/blocks/2.23.24.jpg"
-            />
-            <p class="app-content__image-caption">
-              Страница со стихотворением "Береза" из журнала "Мирок" за январь 1914 г., Тип. тов-ва И.Д. Сытина.
-            </p>
-          </div>
           <div class="app-content__body-text">
             <p>
               «Береза» – первое из известных печатных выступлений поэта. Оно было подписано псевдонимом «Аристон».
@@ -624,17 +611,21 @@
               – «Пасхальный благовест», в № 12 – «Сиротка. Русская сказка».
             </p>
           </div>
-        </div>
-        <div class="app-content__body">
-          <div class="app-content__body-text">
-            <p>
-              Типографский период в биографии Есенина оказался не просто прологом к большой литературе. Время,
-              проведенное в сфере книгоиздания, дало поэту не только первые профессиональные знакомства, которые в
-              немалой степени повлияли на его становление как поэта, но и уникальные практические навыки. Доскональное
-              знание издательской кухни превратилось впоследствии в тот самый инструмент, которым Есенин пользовался с
-              редким энтузиазмом и толком на всем протяжении своего творческого пути.
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="421px"
+              thumbnail-height="537px"
+              modal-width="466px"
+              modal-height="624px"
+              front-image="images/blocks/2.23.24.jpg"
+            />
+            <p class="app-content__image-caption">
+              Страница со стихотворением "Береза" из журнала "Мирок" за январь 1914 г., Тип. тов-ва И.Д. Сытина.
             </p>
           </div>
+        </div>
+        <div class="app-content__body">
           <div class="app-content__image-wrapper">
             <Image360
               class="app-content__image"
@@ -648,21 +639,17 @@
               Фрагмент фотографии С.А. Есенина с М.П. Мурашевым, Петроград, 1916 г.
             </p>
           </div>
-        </div>
-        <div class="app-content__body">
-          <div class="app-content__image-wrapper">
-            <Image360
-              class="app-content__image"
-              thumbnail-width="402px"
-              thumbnail-height="587px"
-              modal-width="402px"
-              modal-height="587px"
-              front-image="images/blocks/2.26.jpeg"
-            />
-            <p class="app-content__image-caption">
-              Слева направо: А. Мариенгоф, С. Есенин, А. Кусиков, А. Шершеневич. Москва, 1920 г.
+          <div class="app-content__body-text">
+            <p>
+              Типографский период в биографии Есенина оказался не просто прологом к большой литературе. Время,
+              проведенное в сфере книгоиздания, дало поэту не только первые профессиональные знакомства, которые в
+              немалой степени повлияли на его становление как поэта, но и уникальные практические навыки. Доскональное
+              знание издательской кухни превратилось впоследствии в тот самый инструмент, которым Есенин пользовался с
+              редким энтузиазмом и толком на всем протяжении своего творческого пути.
             </p>
           </div>
+        </div>
+        <div class="app-content__body">
           <div class="app-content__body-text">
             <p>
               В обширной мемуаристике содержится немало свидетельств о профессиональном интересе поэта к издательскому
@@ -676,8 +663,33 @@
               любили, и чем труднее было издавать, тем больше азартного желания рождалось в них».
             </p>
           </div>
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="402px"
+              thumbnail-height="587px"
+              modal-width="402px"
+              modal-height="587px"
+              front-image="images/blocks/2.26.jpeg"
+            />
+            <p class="app-content__image-caption">
+              Слева направо: А. Мариенгоф, С. Есенин, А. Кусиков, А. Шершеневич. Москва, 1920 г.
+            </p>
+          </div>
         </div>
         <div class="app-content__body">
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="380px"
+              thumbnail-height="542px"
+              modal-width="380px"
+              modal-height="542px"
+              front-image="images/blocks/2.27.jpeg"
+            />
+            <p class="app-content__image-caption">Сергей Есенин. Москва, 1914 г.</p>
+          </div>
+
           <div class="app-content__body-text">
             <p>
               Есенина по праву можно назвать одним из самых деятельных издателей своего времени. Школу издательского
@@ -697,30 +709,8 @@
               выпускать в Москве собственный журнал или литературный альманах.
             </p>
           </div>
-          <div class="app-content__image-wrapper">
-            <Image360
-              class="app-content__image"
-              thumbnail-width="380px"
-              thumbnail-height="542px"
-              modal-width="380px"
-              modal-height="542px"
-              front-image="images/blocks/2.27.jpeg"
-            />
-            <p class="app-content__image-caption">Сергей Есенин. Москва, 1914 г.</p>
-          </div>
         </div>
         <div class="app-content__body">
-          <div class="app-content__image-wrapper">
-            <Image360
-              class="app-content__image"
-              thumbnail-width="523px"
-              thumbnail-height="363px"
-              modal-width="523px"
-              modal-height="363px"
-              front-image="images/blocks/2.28.png"
-            />
-            <p class="app-content__image-caption">Здание редакции газеты «Заря Востока»</p>
-          </div>
           <div class="app-content__body-text">
             <p>
               Позже Николай Вержбицкий вспомнит, как когда-то наблюдал за реакцией Есенина, посетившего в Тифлисе
@@ -731,6 +721,17 @@
               говорил, что запах типографской краски напоминает ему юность и какие-то приятные и интересные события...
               Есенин быстро сошелся со всеми рабочими...»
             </p>
+          </div>
+          <div class="app-content__image-wrapper">
+            <Image360
+              class="app-content__image"
+              thumbnail-width="523px"
+              thumbnail-height="363px"
+              modal-width="523px"
+              modal-height="363px"
+              front-image="images/blocks/2.28.png"
+            />
+            <p class="app-content__image-caption">Здание редакции газеты «Заря Востока»</p>
           </div>
         </div>
       </div>
@@ -765,7 +766,7 @@
   @use "@/assets/styles/mixins";
 
   .app-content {
-    padding-bottom: core.$spacing-8;
+    padding: core.$spacing-8 0;
     background: core.$color-alabaster;
 
     &__body {
