@@ -42,6 +42,8 @@
     border-radius: core.$spacing-1;
     background: core.$color-red-oxide;
     padding: core.$spacing-1;
+    display: flex;
+    place-items: center;
 
     font-size: 14px;
 

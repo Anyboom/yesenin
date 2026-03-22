@@ -1,8 +1,12 @@
 <script setup lang="ts">
   import Image360 from "@/components/Image360.vue";
   import MapViewer from "@/blocks/MapViewer.vue";
+  import { Swiper, SwiperSlide } from "swiper/vue";
   import BookViewerFirst from "@/blocks/BookViewerFirst.vue";
   import BookViewerSecond from "@/blocks/BookViewerSecond.vue";
+  import { Navigation, Pagination } from "swiper/modules";
+  import AppButton from "@/components/AppButton.vue";
+  import { Icon } from "@iconify/vue";
 </script>
 
 <template>
@@ -10,9 +14,9 @@
     <div class="container">
       <div class="app-content__widthed">
         <p>
-          Все знают С.А. Есенина – сверхталантливого хулигана, певца рязанских раздолий. Но что мы знаем о том, как он
-          рос? Как мальчик из крестьянской семьи превратился в поэта, чьи стихи гремели на всю Россию? Каково было его
-          детство, как и под чьим влиянием поселилась в нем любовь к книге, слову, зародились те самые внутренние
+          Все мы знаем С.А. Есенина – сверхталантливого хулигана, певца рязанских раздолий. Но что мы знаем о том, как
+          он рос? Как мальчик из крестьянской семьи превратился в поэта, чьи стихи гремели на всю Россию? Каково было
+          его детство, как и под чьим влиянием поселилась в нем любовь к книге, слову, зародились те самые внутренние
           порывы, которые привели в Москву и в конечном счете в типографию И.Д. Сытина? Обо всем по порядку.
         </p>
       </div>
@@ -628,8 +632,38 @@
           </div>
         </div>
         <div class="app-content__books">
-          <BookViewerFirst />
-          <BookViewerSecond />
+          <swiper
+            :slides-per-view="1"
+            :space-between="50"
+            :navigation="{ prevEl: '.app-content__navigation-prev', nextEl: '.app-content__navigation-next' }"
+            :pagination="{ clickable: true }"
+            :modules="[Navigation, Pagination]"
+          >
+            <swiper-slide>
+              <div class="app-content__book">
+                <BookViewerFirst />
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="app-content__book">
+                <BookViewerSecond />
+              </div>
+            </swiper-slide>
+            <AppButton class="app-content__navigation-prev">
+              <Icon
+                icon="fa7-solid:chevron-left"
+                width="24"
+                height="24"
+              ></Icon>
+            </AppButton>
+            <AppButton class="app-content__navigation-next">
+              <Icon
+                icon="fa7-solid:chevron-right"
+                width="24"
+                height="24"
+              ></Icon>
+            </AppButton>
+          </swiper>
         </div>
         <div class="app-content__body">
           <div class="app-content__image-wrapper">
@@ -771,6 +805,23 @@
   @use "@/assets/styles/core";
   @use "@/assets/styles/mixins";
 
+  .swiper {
+    overflow: visible;
+  }
+
+  .swiper-pagination {
+    bottom: -50px !important;
+  }
+
+  .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+
+    &-active {
+      background: core.$color-red-oxide;
+    }
+  }
+
   .app-content {
     padding: core.$spacing-8 0;
     background: core.$color-alabaster;
@@ -798,9 +849,12 @@
     }
 
     &__books {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: core.$spacing-2;
+      padding-bottom: 50px;
+    }
+
+    &__book {
+      margin: 0 auto;
+      max-width: 860px;
     }
 
     &__widthed {
@@ -817,6 +871,23 @@
       @include mixins.apply-text("body");
       text-align: justify;
       text-indent: core.$spacing-6;
+    }
+
+    &__navigation-prev,
+    &__navigation-next {
+      position: absolute;
+      top: 50%;
+      z-index: 1000;
+    }
+
+    &__navigation-prev {
+      left: 0;
+      right: auto;
+    }
+
+    &__navigation-next {
+      left: auto;
+      right: 0;
     }
 
     &__wrapper {
