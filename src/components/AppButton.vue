@@ -36,6 +36,7 @@
 <style scoped lang="scss">
   @use "@/assets/styles/mixins";
   @use "@/assets/styles/core";
+  @use "sass:color";
 
   .button {
     text-transform: uppercase;
@@ -57,7 +58,7 @@
 
     @include mixins.hover {
       &:not(:disabled) {
-        background: core.$color-red-oxide;
+        background: color.adjust(core.$color-red-oxide, $lightness: -5%);
       }
     }
   }

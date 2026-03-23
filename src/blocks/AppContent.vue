@@ -30,6 +30,7 @@
               modal-width="564px"
               modal-height="395px"
               front-image="images/blocks/2.jpeg"
+              first
             />
             <p class="app-content__image-caption">
               Дом Никиты Осиповича Есенина (деда поэта). Здесь родился С.А. Есенин. Рисунок сделан по рассказу отца
@@ -425,7 +426,12 @@
             <p class="app-content__image-caption">И.Д. Сытин</p>
           </div>
         </div>
-        <MapViewer />
+        <div>
+          <MapViewer />
+          <p class="app-content__image-caption">
+            План города Москвы с пригородами. Издание товарищества А.С. Суворина «Новое время». 1914 г.
+          </p>
+        </div>
         <div class="app-content__body">
           <div class="app-content__image-wrapper">
             <Image360
@@ -851,6 +857,7 @@
 
       &--link-to-map {
         color: core.$color-red-oxide;
+        font-weight: 400;
 
         border-bottom: 2px solid transparent;
 
@@ -910,6 +917,7 @@
     }
 
     &__image-caption {
+      text-align: center;
       @include mixins.apply-text("caption");
       padding-top: core.$spacing-2;
       max-width: 300px;

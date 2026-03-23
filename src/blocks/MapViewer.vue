@@ -1,5 +1,7 @@
 <script setup lang="ts">
   import { onMounted, onUnmounted, ref, useTemplateRef, computed } from "vue";
+  import AppButton from "@/components/AppButton.vue";
+  import { Icon } from "@iconify/vue";
 
   const MIN_SCALE = 1;
   const MAX_SCALE = 100;
@@ -292,6 +294,22 @@
         </div>
       </div>
     </div>
+    <div class="map-viewer__buttons">
+      <AppButton class="map-viewer__plus">
+        <Icon
+          icon="fa7-solid:plus"
+          width="24"
+          height="24"
+        />
+      </AppButton>
+      <AppButton class="map-viewer__minus">
+        <Icon
+          icon="fa7-solid:minus"
+          width="24"
+          height="24"
+        />
+      </AppButton>
+    </div>
   </section>
 </template>
 
@@ -303,6 +321,17 @@
     background: core.$color-alabaster;
     border: 4px solid core.$color-red-oxide;
     border-radius: core.$spacing-2;
+    position: relative;
+
+    &__buttons {
+      position: absolute;
+      top: 50%;
+      display: flex;
+      right: 0;
+      gap: 8px;
+      flex-direction: column;
+      transform: translateY(-50%) translateX(120%);
+    }
 
     &__inner {
       width: 1224px;
