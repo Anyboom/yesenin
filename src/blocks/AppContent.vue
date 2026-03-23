@@ -75,7 +75,7 @@
               modal-height="649px"
               front-image="images/blocks/3.jpeg"
             />
-            <p class="app-content__image-caption">Вид на село Константиново с заливных лугов</p>
+            <p class="app-content__image-caption">Вид на село Константиново с заливных лугов.</p>
           </div>
         </div>
         <div class="app-content__body">
@@ -88,7 +88,9 @@
               modal-height="700px"
               front-image="images/blocks/2.2.jpeg"
             />
-            <p class="app-content__image-caption">Вид на село Константиново с заливных лугов</p>
+            <p class="app-content__image-caption">
+              Александр Никитич и Татьяна Федоровна Есенины, родители поэта. 1926 г.
+            </p>
           </div>
           <div class="app-content__body-text">
             <p>
@@ -179,7 +181,7 @@
               modal-height="391px"
               front-image="images/blocks/2.7.jpeg"
             />
-            <p class="app-content__image-caption">Константиновское земское училище</p>
+            <p class="app-content__image-caption">Константиновское земское училище.</p>
           </div>
         </div>
         <div class="app-content__body">
@@ -192,7 +194,7 @@
               modal-height="618px"
               front-image="images/blocks/2.8.png"
             />
-            <p class="app-content__image-caption">Священник отец Иоанн, Рязань, 1903 г.</p>
+            <p class="app-content__image-caption">Священник отец Иоанн. Рязань, 1903 г.</p>
           </div>
           <div class="app-content__body-text">
             <p>
@@ -246,7 +248,7 @@
               modal-height="739px"
               front-image="images/blocks/2.10.jpg"
             />
-            <p class="app-content__image-caption">Евгений Михайлович Хитров с женой</p>
+            <p class="app-content__image-caption">Евгений Михайлович Хитров с женой.</p>
           </div>
           <div class="app-content__body-text">
             <p>
@@ -289,7 +291,7 @@
             />
             <p class="app-content__image-caption">
               Григорий Панфилов и Сергей Есенин. Фрагмент групповой фотографии выпускного класса Спас-Клепиковской
-              учительской школы, 1911 г.
+              учительской школы. 1911 г.
             </p>
           </div>
         </div>
@@ -304,7 +306,7 @@
               front-image="images/blocks/2.14.jpg"
             />
             <p class="app-content__image-caption">
-              Автограф стихотворения «Звезды» из тетради, подаренной Е.М. Хитрову
+              Автограф стихотворения «Звезды» из тетради, подаренной Е.М. Хитрову.
             </p>
           </div>
           <div class="app-content__body-text">
@@ -347,7 +349,7 @@
               front-image="images/blocks/2.15.jpg"
               back-image="images/blocks/fallback.png"
             />
-            <p class="app-content__image-caption">Тетрадь со стихами Сергея Есенина, подаренная им Е.М. Хитрову</p>
+            <p class="app-content__image-caption">Тетрадь со стихами Сергея Есенина, подаренная им Е.М. Хитрову.</p>
           </div>
         </div>
         <div class="app-content__body">
@@ -361,7 +363,7 @@
               front-image="images/blocks/2.16.jpeg"
             />
             <p class="app-content__image-caption">
-              Общежитие в Большом Строченовском переулке, принадлежавшее купцу Н.В. Крылову
+              Общежитие в Большом Строченовском переулке, принадлежавшее купцу Н.В. Крылову.
             </p>
           </div>
           <div class="app-content__body-text">
@@ -392,7 +394,7 @@
         <div class="app-content__body">
           <div class="app-content__body-text">
             <p>
-              Типография «товарищества И. Д. Сытина», где Есенин сначала работал грузчиком в экспедиции, помощником
+              Типография «Товарищества И. Д. Сытина», где Есенин сначала работал грузчиком в экспедиции, помощником
               корректора, а потом корректором, была крупнейшей в России.
               <a
                 href="#map"
@@ -423,7 +425,7 @@
               front-image="images/blocks/2.17.png"
               back-image="images/blocks/fallback.png"
             />
-            <p class="app-content__image-caption">И.Д. Сытин</p>
+            <p class="app-content__image-caption">И.Д. Сытин.</p>
           </div>
         </div>
         <div>
@@ -493,7 +495,7 @@
               modal-height="678px"
               front-image="images/blocks/2.19_1.png"
             />
-            <p class="app-content__image-caption">С.А. Есенин, 1913 г.</p>
+            <p class="app-content__image-caption">С.А. Есенин. 1913 г.</p>
           </div>
           <div class="app-content__body-text">
             <p>
@@ -531,7 +533,7 @@
               front-image="images/blocks/2.20.jpg"
             />
             <p class="app-content__image-caption">
-              С.А. Есенин среди работников типографии Товарищества И.Д. Сытина, Москва, 1914 г.
+              С.А. Есенин среди работников типографии Товарищества И.Д. Сытина. Москва, 1914 г.
             </p>
           </div>
         </div>
@@ -546,7 +548,7 @@
               front-image="images/blocks/2.21.png"
             />
             <p class="app-content__image-caption">
-              С.А. Есенин на занятиях кружка самообразования работников типографии Товарищества И.Д. Сытина, 1914 г.
+              С.А. Есенин на занятиях кружка самообразования работников типографии Товарищества И.Д. Сытина. 1914 г.
             </p>
           </div>
           <div class="app-content__body-text">
@@ -644,7 +646,7 @@
               front-image="images/blocks/2.23.24.jpg"
             />
             <p class="app-content__image-caption">
-              Страница со стихотворением "Береза" из журнала "Мирок" за январь 1914 г., Тип. тов-ва И.Д. Сытина.
+              Страница со стихотворением «Береза» из журнала «Мирок» за январь 1914 г., тип. Тов-ва И.Д. Сытина.
             </p>
           </div>
         </div>
@@ -693,7 +695,7 @@
               front-image="images/blocks/2.25.jpg"
             />
             <p class="app-content__image-caption">
-              Фрагмент фотографии С.А. Есенина с М.П. Мурашевым, Петроград, 1916 г.
+              Фрагмент фотографии С.А. Есенина с М.П. Мурашевым. Петроград, 1916 г.
             </p>
           </div>
           <div class="app-content__body-text">
@@ -788,7 +790,7 @@
               modal-height="363px"
               front-image="images/blocks/2.28.png"
             />
-            <p class="app-content__image-caption">Здание редакции газеты «Заря Востока»</p>
+            <p class="app-content__image-caption">Здание редакции газеты «Заря Востока».</p>
           </div>
         </div>
       </div>
