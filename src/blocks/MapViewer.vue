@@ -10,6 +10,7 @@
 
   const DEFAULT_SCALE = 10;
   const DEFAULT_POSITION = { x: -5310.990625856228, y: -5015.598696339521 };
+  const ZOOM_STEP = 0.5; // Шаг изменения масштаба при клике на кнопку
 
   const wrapperRef = useTemplateRef<HTMLDivElement>("mapWrapper");
   const imageRef = useTemplateRef<HTMLImageElement>("mapImage");
@@ -98,6 +99,66 @@
 
     if (markersContainerRef.value) {
       markersContainerRef.value.style.transform = markersTransform.value;
+    }
+  }
+
+  // Функция для увеличения карты
+  function zoomIn() {
+    if (!wrapperRef.value || !actualImageSize.value.width) return;
+
+    // Центр контейнера
+    const centerX = CONTAINER_WIDTH / 2;
+    const centerY = CONTAINER_HEIGHT / 2;
+
+    // Координаты центра относительно изображения
+    const imageCenterX = (centerX - imageOffset.value.x - position.value.x) / scale.value;
+    const imageCenterY = (centerY - imageOffset.value.y - position.value.y) / scale.value;
+
+    // Новый масштаб
+    let newScale = scale.value + ZOOM_STEP;
+    newScale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, newScale));
+    newScale = Math.round(newScale * 100) / 100;
+
+    if (newScale !== scale.value) {
+      // Новые координаты, чтобы центр оставался на месте
+      const newX = centerX - imageOffset.value.x - imageCenterX * newScale;
+      const newY = centerY - imageOffset.value.y - imageCenterY * newScale;
+
+      position.value.x = newX;
+      position.value.y = newY;
+      scale.value = newScale;
+
+      updateTransform();
+    }
+  }
+
+  // Функция для уменьшения карты
+  function zoomOut() {
+    if (!wrapperRef.value || !actualImageSize.value.width) return;
+
+    // Центр контейнера
+    const centerX = CONTAINER_WIDTH / 2;
+    const centerY = CONTAINER_HEIGHT / 2;
+
+    // Координаты центра относительно изображения
+    const imageCenterX = (centerX - imageOffset.value.x - position.value.x) / scale.value;
+    const imageCenterY = (centerY - imageOffset.value.y - position.value.y) / scale.value;
+
+    // Новый масштаб
+    let newScale = scale.value - ZOOM_STEP;
+    newScale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, newScale));
+    newScale = Math.round(newScale * 100) / 100;
+
+    if (newScale !== scale.value) {
+      // Новые координаты, чтобы центр оставался на месте
+      const newX = centerX - imageOffset.value.x - imageCenterX * newScale;
+      const newY = centerY - imageOffset.value.y - imageCenterY * newScale;
+
+      position.value.x = newX;
+      position.value.y = newY;
+      scale.value = newScale;
+
+      updateTransform();
     }
   }
 
@@ -295,14 +356,20 @@
       </div>
     </div>
     <div class="map-viewer__buttons">
-      <AppButton class="map-viewer__plus">
+      <AppButton
+        class="map-viewer__plus"
+        @click="zoomIn"
+      >
         <Icon
           icon="fa7-solid:plus"
           width="24"
           height="24"
         />
       </AppButton>
-      <AppButton class="map-viewer__minus">
+      <AppButton
+        class="map-viewer__minus"
+        @click="zoomOut"
+      >
         <Icon
           icon="fa7-solid:minus"
           width="24"
