@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { ref, onMounted, onUnmounted } from "vue";
   import { Vue3Lottie } from "vue3-lottie";
+  // @ts-ignore
   import CursorRotate from "@/components/CursorRotate.vue";
 
   interface Props {
