@@ -34,7 +34,7 @@
             />
             <p class="app-content__image-caption">
               Дом Никиты Осиповича Есенина (деда поэта). Здесь родился С.А. Есенин. Рисунок сделан по рассказу отца
-              поэта художницей Л. Милеевой.
+              поэта художницей Л. Милеевой
             </p>
           </div>
           <div class="app-content__body-text">
@@ -75,7 +75,7 @@
               modal-height="649px"
               front-image="images/blocks/3.jpeg"
             />
-            <p class="app-content__image-caption">Вид на село Константиново с заливных лугов.</p>
+            <p class="app-content__image-caption">Вид на село Константиново с заливных лугов</p>
           </div>
         </div>
         <div class="app-content__body">
@@ -124,7 +124,7 @@
               front-image="images/blocks/2.3.png"
             />
             <p class="app-content__image-caption">
-              Отец поэта А.Н. Есенин с дедом поэта Федором Андреевичем Титовым. Константиново.
+              Отец поэта А.Н. Есенин с дедом поэта Федором Андреевичем Титовым. Константиново
             </p>
           </div>
         </div>
@@ -181,7 +181,7 @@
               modal-height="391px"
               front-image="images/blocks/2.7.jpeg"
             />
-            <p class="app-content__image-caption">Константиновское земское училище.</p>
+            <p class="app-content__image-caption">Константиновское земское училище</p>
           </div>
         </div>
         <div class="app-content__body">
@@ -248,7 +248,7 @@
               modal-height="739px"
               front-image="images/blocks/2.10.jpg"
             />
-            <p class="app-content__image-caption">Евгений Михайлович Хитров с женой.</p>
+            <p class="app-content__image-caption">Евгений Михайлович Хитров с женой</p>
           </div>
           <div class="app-content__body-text">
             <p>
@@ -306,7 +306,7 @@
               front-image="images/blocks/2.14.jpg"
             />
             <p class="app-content__image-caption">
-              Автограф стихотворения «Звезды» из тетради, подаренной Е.М. Хитрову.
+              Автограф стихотворения «Звезды» из тетради, подаренной Е.М. Хитрову
             </p>
           </div>
           <div class="app-content__body-text">
@@ -349,7 +349,7 @@
               front-image="images/blocks/2.15.jpg"
               back-image="images/blocks/fallback.png"
             />
-            <p class="app-content__image-caption">Тетрадь со стихами Сергея Есенина, подаренная им Е.М. Хитрову.</p>
+            <p class="app-content__image-caption">Тетрадь со стихами Сергея Есенина, подаренная им Е.М. Хитрову</p>
           </div>
         </div>
         <div class="app-content__body">
@@ -363,7 +363,7 @@
               front-image="images/blocks/2.16.jpeg"
             />
             <p class="app-content__image-caption">
-              Общежитие в Большом Строченовском переулке, принадлежавшее купцу Н.В. Крылову.
+              Общежитие в Большом Строченовском переулке, принадлежавшее купцу Н.В. Крылову
             </p>
           </div>
           <div class="app-content__body-text">
@@ -425,7 +425,7 @@
               front-image="images/blocks/2.17.png"
               back-image="images/blocks/fallback.png"
             />
-            <p class="app-content__image-caption">И.Д. Сытин.</p>
+            <p class="app-content__image-caption">И.Д. Сытин</p>
           </div>
         </div>
         <div>
@@ -444,7 +444,7 @@
               modal-height="381px"
               front-image="images/blocks/2.18.jpg"
             />
-            <p class="app-content__image-caption">Одно из подразделений типографии И.Д. Сытина.</p>
+            <p class="app-content__image-caption">Одно из подразделений типографии И.Д. Сытина</p>
           </div>
           <div class="app-content__body-text">
             <p>
@@ -592,7 +592,7 @@
               modal-height="396px"
               front-image="images/blocks/2.22.jpeg"
             />
-            <p class="app-content__image-caption">Московский городской народный университет имени А. Л. Шанявского.</p>
+            <p class="app-content__image-caption">Московский городской народный университет имени А. Л. Шанявского</p>
           </div>
         </div>
         <div class="app-content__body">
@@ -646,7 +646,7 @@
               front-image="images/blocks/2.23.24.jpg"
             />
             <p class="app-content__image-caption">
-              Страница со стихотворением «Береза» из журнала «Мирок» за январь 1914 г., тип. Тов-ва И.Д. Сытина.
+              Страница со стихотворением «Береза» из журнала «Мирок» за январь 1914 г., тип. Тов-ва И.Д. Сытина
             </p>
           </div>
         </div>
@@ -790,13 +790,13 @@
               modal-height="363px"
               front-image="images/blocks/2.28.png"
             />
-            <p class="app-content__image-caption">Здание редакции газеты «Заря Востока».</p>
+            <p class="app-content__image-caption">Здание редакции газеты «Заря Востока»</p>
           </div>
         </div>
       </div>
       <div class="app-content__resume">
         <p>
-          Таким образом, мы можем заявить, что именно И.Д. Сытин «открыл» Есенина, потому как именно работа в этой
+          Таким образом, мы можем заявить, что именно И.Д. Сытин открыл С.А. Есенина, потому как именно работа в этой
           типографии стала для поэта той самой «взлетной полосой», с которой начался его путь в большую литературу.
         </p>
         <p>

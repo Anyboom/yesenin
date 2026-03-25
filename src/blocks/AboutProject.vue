@@ -95,9 +95,6 @@
       text-align: justify;
       margin: 0 auto;
       max-width: 900px;
-      display: flex;
-      flex-direction: column;
-      gap: core.$spacing-4;
       @include mixins.apply-text("body");
       text-indent: core.$spacing-6;
     }

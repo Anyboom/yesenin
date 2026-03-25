@@ -115,9 +115,6 @@
       text-align: justify;
       margin: 0 auto;
       max-width: 900px;
-      display: flex;
-      flex-direction: column;
-      gap: core.$spacing-2;
       @include mixins.apply-text("body");
     }
   }

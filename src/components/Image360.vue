@@ -60,9 +60,12 @@
   };
 
   const closeModal = (): void => {
+    if (isDragging.value) {
+      return;
+    }
+
     isModalOpen.value = false;
     document.body.style.overflow = "";
-    resetRotation();
   };
 
   const handleMouseDown = (e: MouseEvent): void => {
@@ -86,7 +89,9 @@
   };
 
   const handleMouseUp = (): void => {
-    isDragging.value = false;
+    setTimeout(() => {
+      isDragging.value = false;
+    }, 10);
   };
 
   const handleTouchStart = (e: TouchEvent): void => {
@@ -113,7 +118,9 @@
   };
 
   const handleTouchEnd = (): void => {
-    isDragging.value = false;
+    setTimeout(() => {
+      isDragging.value = false;
+    }, 10);
   };
 
   onMounted(() => {
@@ -445,7 +452,6 @@
         <div
           v-if="isModalOpen"
           class="photo-3d-modal"
-          @click="closeModal"
           :style="{
             '--modalHeight': modalHeight,
             '--modalWidth': modalWidth,
@@ -456,6 +462,7 @@
               ref="photo3dRef"
               class="photo-3d-modal__container"
               :class="{ 'photo-3d-modal__container--grabbing': isDragging }"
+              v-click-away="closeModal"
               @mousedown="handleMouseDown"
               @touchstart="handleTouchStart"
             >
